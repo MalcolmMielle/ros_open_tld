@@ -64,8 +64,7 @@ int main(int argc, char **argv)
 	
 	//loading ros parameters
 	main->loadRosparam();
-	ros::param::param<bool>("/OpenTLD/Graphical_interface", showOutput, true);
-	ros::param::param<bool>("/OpenTLD/ShowTrajectory", showOutput, true);
+
 	//ros::param::get("/OpenTLD/Graphical_interface", main->showOutput);
 	srand(main->seed);
 	imAcqInit(imAcq);

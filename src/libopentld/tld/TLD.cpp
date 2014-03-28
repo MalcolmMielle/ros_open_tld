@@ -111,6 +111,7 @@ void TLD::selectObject(const Mat &img, Rect *bb)
     currConf = 1;
     valid = true;
 
+	//FIRST STEP OF LEARNING WHERE THE FIRST SAMPLE IS TAKEN
     initialLearning();
 
 }

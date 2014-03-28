@@ -77,10 +77,8 @@ void TLD::release()
 {
     detectorCascade->release();
     medianFlowTracker->cleanPreviousData();
-   // std::cout<<"DELETING"<<std::endl;
     delete currBB;
     currBB=NULL;
-    //*currBB=Rect();
 }
 
 void TLD::storeCurrentData()

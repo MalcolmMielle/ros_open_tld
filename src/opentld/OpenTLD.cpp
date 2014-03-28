@@ -67,7 +67,7 @@ int main(int argc, char **argv)
 
 	//ros::param::get("/OpenTLD/Graphical_interface", main->showOutput);
 	srand(main->seed);
-	imAcqInit(imAcq);
+	//imAcqInit(imAcq);
 
 	if(main->showOutput){
 		gui->init();
